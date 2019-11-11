@@ -1,0 +1,91 @@
+<!--注释是代码之母-->
+{% extends 'api_layout.html' %}
+{#{% block content %}#}
+{#    <a href="/api/custom/"><span class="icon-wrap"><i class="fa fa-map-o" aria-hidden="true"></i></span> 书籍管理 </a>#}
+{#{% endblock %}#}
+{% block link %}
+    <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+{% endblock %}
+{% block layout %}
+    <div class="container">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+            <th>序号</th>
+            <th>id</th>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>操作</th>
+
+        </tr>
+      </thead>
+        <tbody>
+        {% for row in user_list %}
+            <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ row.id }}</td>
+            <td>{{ row.username }}</td>
+            <td>{{ row.password }}</td>
+{#            <td>{{ row.phone }}</td>#}
+{#            <td>{{ row.detail.addr }}</td>#}
+{#            <td>{{ row.detail.email }}</td>#}
+            <td>
+{#                <a class="btn btn-danger" href="#">删除</a>#}
+                <button class="btn btn-danger del"><i class="fa fa-trash-o">删除</i></button>
+                <a class="btn btn-info" href="#">编辑</a>
+            </td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+</table>
+<nav aria-label="Page navigation">
+      <ul class="pagination">
+          {{ page_info.pager|safe }}
+      </ul>
+    </nav>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/sweetalert/sweetalert.min.js"></script>
+    <script src="/static/js/setupajax.js"></script>
+
+<script>
+
+    // 找到删除按钮绑定事件
+    $(".del").on("click", function () {
+        var $trEle = $(this).parent().parent();
+        var delId = $trEle.children().eq(1).text();
+
+        swal({
+          title: "你确定要删除吗？",
+          text: "一旦删除就找不回来了",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonClass: "btn-warning",
+          confirmButtonText: "确认",
+          cancelButtonText: "取消",
+          closeOnConfirm: false,
+          showLoaderOnConfirm: true
+        },
+        function(){
+            // 向后端发送删除的请求
+            $.ajax({
+                url: "#",
+                type: "post",
+                data: {"nid":delId},
+                success:function (arg) {
+                    swal(arg, "你可以跑路了！", "success");
+                    $trEle.remove();
+                }
+            });
+
+        });
+    });
+
+</script>
+
+{% endblock %}

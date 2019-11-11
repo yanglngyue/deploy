@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block layout %}
+
+    <ul>
+
+        <li>{{ user_list.name }}||{{ obj.hobby }}||{{ obj.addr }} ||<a href="/api/class_delete/{{ row.id }}">删除</a> ||<a href="/api/class_edit/{{ row.id }}">编辑</a></li>
+
+
+    </ul>
+{% endblock %}

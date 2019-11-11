@@ -1,0 +1,80 @@
+<!--注释是代码之母-->
+{% extends 'api_layout.html' %}
+{% block layout %}
+<div >
+    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">版本升级修改界面</h3>
+  </div>
+{#<form action="/api/promotion_edit/" method="post">#}
+{#{% csrf_token %}#}
+{#    <div><span>版本名称 <input type="text" name="promotion_name" value="{{ Promotion.name }}"></span></div>#}
+{#    <input type="text" name="nid" value="{{ Promotion.id }}" style="display: none">#}
+{#    <div><span>升级类型 <input type="text" name="promotion_select" value="{{ Promotion.select }}"></span></div>#}
+{#    <div><span>升级范围 <input type="text" name="promotion_extent" value="{{ Promotion.extent }}"></span></div>#}
+{#    <div><span>升级内容 <input type="text" name="promotion_info" value="{{ Promotion.info }}"></span></div>#}
+{#    <div><span>升级时间 <input type="date" name="promotion_uptime" value="{{ Promotion.uptime }}" ></span></div>#}
+{#    <div><span>备注 <input type="text" name="promotion_ps" value="{{ Promotion.ps }}"></span></div>#}
+{#    <input type="submit" value="提交">#}
+{#    <p style="color: red">{{ error }}</p>#}
+{#</form>#}
+
+{#Ajax提交#}
+{% csrf_token %}
+
+<div class="panel-body"><span>版本名称 <input type="text"  name="promotion_name" value="{{ Promotion.name }}" id="d1"></span></div>
+    <input type="text" name="nid" value="{{ Promotion.id }}" style="display: none" id="d2">
+    <div class="panel-body"><span>升级类型 <input type="text" name="promotion_select" value="{{ Promotion.select }}" id="d3"></span></div>
+    <div class="panel-body"><span>升级范围 <input type="text" name="promotion_extent" value="{{ Promotion.extent }}" id="d4"></span></div>
+    <div class="panel-body"><span>升级内容 <input type="text" name="promotion_info" value="{{ Promotion.info }}" id="d5"></span></div>
+{#    <div><span>升级时间 <input type="date" name="promotion_uptime" value="{{ Promotion.uptime }}" id="d6" ></span></div>#}
+    <div class="panel-body"><span>备注 <input type="text" name="promotion_ps" value="{{ Promotion.ps }}" id="d7"></span></div>
+    <input type="button" value="提交" id="b1">
+
+
+
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+{#<script src="/static/js/setupajax.js"></script>#}
+    <script>
+
+        $("#b1").on("click", function () {
+        // 点击 id是b1的按钮要做的事儿
+          var promotion_name = $("#d1").val();
+          var nid = $("#d2").val();
+          var promotion_select = $("#d3").val();
+          var promotion_extent = $("#d4").val();
+          var promotion_info = $("#d5").val();
+          {#var promotion_uptime = $("#d6").val();#}
+          var promotion_ps = $("#d7").val();
+          // 找到页面上csrf_token
+            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+        // 往后端发数据
+        $.ajax({
+          url: "/api/promotion_edit/",
+          type: "post",
+          data: {"promotion_name": promotion_name, "nid": nid,"promotion_select":promotion_select,"promotion_extent":promotion_extent,"promotion_info":promotion_info,"promotion_ps":promotion_ps,'csrfmiddlewaretoken':csrfToken},
+          success: function (arg) {
+              alert(arg);
+              //1 把返回的结果填充到 id是i3的input框中
+              {#$("#i3").val(arg);#}
+              //2 根据返回值判断下一步的操作
+{#              if(arg == "ok"){#}
+{#                        location.href= "/classes/";#}
+{#                    }else{#}
+{#                        $('#errormsg').text(data);#}
+{#                    }#}
+              //3 直接跳转至指定url
+              window.location.href="/api/promotion_list/"
+
+
+          }
+      })
+  });
+
+
+
+
+    </script>
+
+{% endblock %}

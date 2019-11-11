@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block style %}
+
+    body,ul,li{padding:0px;margin:0px;list-style: none;}
+			a{text-decoration: none;}
+			.main{float:left;width:98%;margin:25px 0px 0px 2%;}
+			.main li{float:left;width:23%;height:116px;margin:0px 2% 25px 0px;}
+			.main li:nth-child(4),.main li:nth-child(8){margin-right:0px;}
+			.main li a{float:left;width:100%;height:100%;line-height:1.1em;padding-top:28px;font-size:26px;color:#fff;text-align: center;}
+			.main li a span{font-size:14px;}
+			.bg1{background: #327AB6;}
+			.bg2{background: #55879A;}
+			.bg3{background: #CEB791;}
+			.bg4{background: #24C080;}
+			.bg5{background: #00ABEC;}
+			.bg6{background: #F0753D;}
+			.bg7{background: #95C546;}
+			.bg8{background: #95B26D;}
+			.bg9{background: #6E5397;}
+			.bg10{background: #327AB6;}
+{% endblock %}
+{% block middler %}
+<ul class="main">
+			<li class="bg1 btn btn-primary btn-lg" ><a href="/cmdb/index">资产<br /><span>CMDB</span></a></li>
+			<li class="bg2 btn btn-primary btn-lg"><a href="/api/index">工作相关<br /><span>CONFIGURATION</span></a></li>
+			<li class="bg3 btn btn-primary btn-lg"><a href="#">私有云<br /><span>OPENSTACK</span></a></li>
+			<li class="bg4 btn btn-primary btn-lg"><a href="#">监控<br /><span>MONITOR</span></a></li>
+			<li class="bg5 btn btn-primary btn-lg"><a href="#">堡垒机<br /><span>BASTION</span></a></li>
+			<li class="bg6 btn btn-primary btn-lg"><a href="#">任务<br /><span>TASK</span></a></li>
+			<li class="bg7 btn btn-primary btn-lg"><a href="#">DNS<br /><span>DYNAMIC DNS</span></a></li>
+			<li class="bg8 btn btn-primary btn-lg"><a href="#">资源池<br /><span>RESOURCE POOL</span></a></li>
+			<li class="bg9 btn btn-primary btn-lg"><a href="#">发布<br /><span>PUBLISHER</span></a></li>
+			<li class="bg10 btn btn-primary btn-lg"><a href="#">博客<br /><span>BLOG</span></a></li>
+    <li class="bg10 btn btn-primary btn-lg"><a href="#">添加<br /><span>ADD</span></a></li>
+		</ul>
+
+{% endblock %}

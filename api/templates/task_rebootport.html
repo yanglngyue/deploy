@@ -1,0 +1,65 @@
+<!--注释是代码之母-->
+{% extends 'api_layout.html' %}
+{% block link %}
+    <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+{% endblock %}
+{% block layout %}
+<h1>请输入要重启的受管端口和IP</h1>
+{#<form action="/api/reboot_task/" method="post">#}
+{% csrf_token %}
+    <input type="text" name="nid" value="{{ hostlist.id }}" style="display: none" id="d1">
+{#    <div><span>IP <input type="text" name="ip" value="{{ hostlist.network_ip }}"></span></div>#}
+<span>受管端口 <input type="text" name="port" id="d2"></span>
+
+{#    <input type="submit" value="提交">#}
+    <button class="btn btn-danger reboot">提交</button>
+    <p style="color: red">{{ error }}</p>
+{#</form>#}
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/sweetalert/sweetalert.min.js"></script>
+<script src="/static/js/setupajax.js"></script>
+
+<script>
+
+    // 找到按钮绑定事件
+    $(".reboot").on("click", function () {
+        {#var $trEle = $(this).parent().parent();#}
+        {#var delId = $trEle.children().eq(1).text();#}
+        var nid = $("#d1").val();
+        var port = $("#d2").val();
+
+        swal({
+          title: "你确定要重启吗？",
+          text: "一旦重启有问题，请联系运维组人员处理！",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonClass: "btn-warning",
+          confirmButtonText: "确认",
+          cancelButtonText: "取消",
+          closeOnConfirm: false,
+          showLoaderOnConfirm: true
+        },
+        function(){
+            // 向后端发送的请求
+            $.ajax({
+                url: "/api/reboot_task/",
+                type: "post",
+                data: {"port": port, "nid": nid,},
+                success:function (arg) {
+                swal(arg);
+                    window.location.href="/api/task_index/"
+
+
+                }
+            });
+
+        });
+    });
+
+
+</script>
+
+{% endblock %}
