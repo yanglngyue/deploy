@@ -43,3 +43,16 @@ class CmdbInfo(models.Model):
 
     ctime = models.DateTimeField(auto_now_add=True, null=True, verbose_name='创建时间', blank=True)
     utime = models.DateTimeField(auto_now=True, null=True, verbose_name='更新时间', blank=True)
+
+
+class WeblogicService(models.Model):
+    nid = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=64, verbose_name='应用名', unique=True)
+    weblogicport = models.ManyToManyField(to="WeblogicPort")
+    def __str__(self):
+        return self.name
+class WeblogicPort(models.Model):
+    nid = models.AutoField(primary_key=True)
+    port = models.IntegerField(verbose_name="应用端口", null=True, blank=True)
+    def __str__(self):
+        return self.port

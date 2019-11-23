@@ -1,5 +1,9 @@
 <!--注释是代码之母-->
 {% extends 'api_layout.html' %}
+
+{% block link %}
+    <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+{% endblock %}
 {% block layout %}
 <div >
     <div class="panel panel-primary">
@@ -27,54 +31,112 @@
     <div class="panel-body"><span>升级类型 <input type="text" name="promotion_select" value="{{ Promotion.select }}" id="d3"></span></div>
     <div class="panel-body"><span>升级范围 <input type="text" name="promotion_extent" value="{{ Promotion.extent }}" id="d4"></span></div>
     <div class="panel-body"><span>升级内容 <input type="text" name="promotion_info" value="{{ Promotion.info }}" id="d5"></span></div>
-{#    <div><span>升级时间 <input type="date" name="promotion_uptime" value="{{ Promotion.uptime }}" id="d6" ></span></div>#}
+    <div><span>升级时间 <input type="date" name="promotion_uptime" value="{{ Promotion.uptime|date:'Y-m-d' }}" id="d6" ></span></div>
     <div class="panel-body"><span>备注 <input type="text" name="promotion_ps" value="{{ Promotion.ps }}" id="d7"></span></div>
-    <input type="button" value="提交" id="b1">
+{#    <input type="button" value="提交" id="b1">#}
+        <button class="btn btn-danger commit"><i class="fa fa-trash-o">提交</i></button>
 
 
 
 
-<script src="/static/js/jquery-3.3.1.min.js"></script>
+{#<script src="/static/js/jquery-3.3.1.min.js"></script>#}
 {#<script src="/static/js/setupajax.js"></script>#}
-    <script>
-
-        $("#b1").on("click", function () {
-        // 点击 id是b1的按钮要做的事儿
-          var promotion_name = $("#d1").val();
-          var nid = $("#d2").val();
-          var promotion_select = $("#d3").val();
-          var promotion_extent = $("#d4").val();
-          var promotion_info = $("#d5").val();
-          {#var promotion_uptime = $("#d6").val();#}
-          var promotion_ps = $("#d7").val();
-          // 找到页面上csrf_token
-            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
-        // 往后端发数据
-        $.ajax({
-          url: "/api/promotion_edit/",
-          type: "post",
-          data: {"promotion_name": promotion_name, "nid": nid,"promotion_select":promotion_select,"promotion_extent":promotion_extent,"promotion_info":promotion_info,"promotion_ps":promotion_ps,'csrfmiddlewaretoken':csrfToken},
-          success: function (arg) {
-              alert(arg);
-              //1 把返回的结果填充到 id是i3的input框中
+{#    <script>#}
+{##}
+{#        $("#b1").on("click", function () {#}
+{#        // 点击 id是b1的按钮要做的事儿#}
+{#          var promotion_name = $("#d1").val();#}
+{#          var nid = $("#d2").val();#}
+{#          var promotion_select = $("#d3").val();#}
+{#          var promotion_extent = $("#d4").val();#}
+{#          var promotion_info = $("#d5").val();#}
+{#          var promotion_uptime = $("#d6").val();#}
+{#          var promotion_ps = $("#d7").val();#}
+{#          // 找到页面上csrf_token#}
+{#            var csrfToken = $("[name='csrfmiddlewaretoken']").val();#}
+{#        // 往后端发数据#}
+{#        $.ajax({#}
+{#          url: "/api/promotion_edit/",#}
+{#          type: "post",#}
+{#          data: {"promotion_name": promotion_name, "nid": nid,"promotion_uptime":promotion_uptime,"promotion_select":promotion_select,"promotion_extent":promotion_extent,"promotion_info":promotion_info,"promotion_ps":promotion_ps,'csrfmiddlewaretoken':csrfToken},#}
+{#          success: function (arg) {#}
+{#              alert(arg);#}
+{#              //1 把返回的结果填充到 id是i3的input框中#}
               {#$("#i3").val(arg);#}
-              //2 根据返回值判断下一步的操作
+{#              //2 根据返回值判断下一步的操作#}
 {#              if(arg == "ok"){#}
 {#                        location.href= "/classes/";#}
 {#                    }else{#}
 {#                        $('#errormsg').text(data);#}
 {#                    }#}
-              //3 直接跳转至指定url
-              window.location.href="/api/promotion_list/"
+{#              //3 直接跳转至指定url#}
+{#              window.location.href="/api/promotion_list/"#}
+{##}
+{##}
+{#          }#}
+{#      })#}
+{#  });#}
+{##}
+{##}
+{##}
+{##}
+{#    </script>#}
+{##}
+</div>
+</div>
+{% endblock %}
+{% block script %}
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/sweetalert/sweetalert.min.js"></script>
+<script src="/static/js/setupajax.js"></script>
+
+<script>
 
 
-          }
-      })
-  });
+    // 找到初始化按钮绑定事件
+    $(".commit").on("click", function () {
+        {#var $trEle = $(this).parent().parent();#}
+        {#var delId = $trEle.children().eq(1).text();#}
+        var promotion_name = $("#d1").val();
+          var nid = $("#d2").val();
+          var promotion_select = $("#d3").val();
+          var promotion_extent = $("#d4").val();
+          var promotion_info = $("#d5").val();
+          var promotion_uptime = $("#d6").val();
+          var promotion_ps = $("#d7").val();
+        swal({
+          title: "你确定要提交吗？",
+          text: "一旦提交有问题，请联系运维组人员处理！",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonClass: "btn-warning",
+          confirmButtonText: "确认",
+          cancelButtonText: "取消",
+          closeOnConfirm: false,
+          showLoaderOnConfirm: true
+        },
+        function(){
+            // 向后端发送删除的请求
+            $.ajax({
+                url: "/api/promotion_edit/",
+                type: "post",
+                data: {"promotion_name": promotion_name, "nid": nid,"promotion_uptime":promotion_uptime,"promotion_select":promotion_select,"promotion_extent":promotion_extent,"promotion_info":promotion_info,"promotion_ps":promotion_ps},
+                success:function (arg) {
+                   if(arg == "ok"){
+                        swal(arg, "编辑成功！", "success");
+                        window.location.href= "/api/promotion_list/";
+                    }else{
+                        swal(arg, "少年，没有编辑成功");
+                    }
+                }
+            });
+
+        });
+    });
 
 
 
 
-    </script>
+</script>
 
 {% endblock %}

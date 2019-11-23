@@ -19,4 +19,3 @@ def class_dev():
         # 关闭连接
         conn.close()
         print(class_list)
-class_dev()

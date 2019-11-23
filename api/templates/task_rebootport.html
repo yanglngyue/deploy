@@ -13,7 +13,7 @@
 
 {#    <input type="submit" value="提交">#}
     <button class="btn btn-danger reboot">提交</button>
-    <p style="color: red">{{ error }}</p>
+    <p style="color: red"></p>
 {#</form>#}
 {% endblock %}
 
@@ -49,8 +49,14 @@
                 type: "post",
                 data: {"port": port, "nid": nid,},
                 success:function (arg) {
-                swal(arg);
-                    window.location.href="/api/task_index/"
+
+                if(arg == "ok"){
+                        swal(arg, "重启成功！", "success");
+                        window.location.href= "/api/task_index/";
+                    }else{
+                        swal(arg, "少年，没有成功");
+                    }
+
 
 
                 }

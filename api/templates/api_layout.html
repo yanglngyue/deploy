@@ -1,11 +1,12 @@
-{% extends 'layout.html' %}
+{% extends 'cmdb_layout.html' %}
 
-{% block top_right %}
-    <a href="#" class="more-item">个人信息</a>
-    <a href="/logout/" class="more-item">注销</a>
-{% endblock %}
+{#{% block top_right %}#}
+{#    <a href="#" class="more-item">个人信息</a>#}
+{#    <a href="/logout/" class="more-item">注销</a>#}
+{#{% endblock %}#}
 {% block content %}
 {#    <a href="/api/custom/"><span class="icon-wrap"><i class="fa fa-map-o" aria-hidden="true"></i></span> 书籍管理 </a>#}
     <a href="/api/promotion_list/"><span class="icon-wrap"><i class="fa fa-map-o" aria-hidden="true"></i></span> 版本升级记录 </a>
+    <a href="/api/task_upload/"><span class="icon-wrap"><i class="fa fa-map-o" aria-hidden="true"></i></span> 文件上传 </a>
     <a href="/api/task_index/"><span class="icon-wrap"><i class="fa fa-map-o" aria-hidden="true"></i></span> 任务自动部署 </a>
 {% endblock %}

@@ -1,0 +1,636 @@
+[2019-11-21 10:28:57,861] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:28:57,861] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:28:57,862] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:28:57,862] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:28:57,862] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:28:57,862] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:28:57,990] [DEBUG] (0.007) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest', '123', NULL, NULL, 'avatars/default.png', NULL, '2019-11-21 10:28:57.983463')"; args=['yangtest', '123', None, None, 'avatars/default.png', None, '2019-11-21 10:28:57.983463']
+[2019-11-21 10:28:57,990] [DEBUG] (0.007) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest', '123', NULL, NULL, 'avatars/default.png', NULL, '2019-11-21 10:28:57.983463')"; args=['yangtest', '123', None, None, 'avatars/default.png', None, '2019-11-21 10:28:57.983463']
+[2019-11-21 10:30:59,422] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:30:59,422] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:30:59,423] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:30:59,423] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:30:59,424] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:30:59,424] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:30:59,626] [DEBUG] (0.003) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest1', '123', NULL, NULL, '', NULL, '2019-11-21 10:30:59.623245')"; args=['yangtest1', '123', None, None, '', None, '2019-11-21 10:30:59.623245']
+[2019-11-21 10:30:59,626] [DEBUG] (0.003) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest1', '123', NULL, NULL, '', NULL, '2019-11-21 10:30:59.623245')"; args=['yangtest1', '123', None, None, '', None, '2019-11-21 10:30:59.623245']
+[2019-11-21 10:32:55,191] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:32:55,191] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-21 10:32:55,192] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:32:55,192] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-21 10:32:55,193] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:32:55,193] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-21 10:32:55,348] [DEBUG] (0.002) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest1', '123', NULL, NULL, '', NULL, '2019-11-21 10:32:55.346493')"; args=['yangtest1', '123', None, None, '', None, '2019-11-21 10:32:55.346493']
+[2019-11-21 10:32:55,348] [DEBUG] (0.002) b"INSERT INTO `api_user` (`username`, `password`, `email`, `phone`, `avatar`, `blog_id`, `create_time`) VALUES ('yangtest1', '123', NULL, NULL, '', NULL, '2019-11-21 10:32:55.346493')"; args=['yangtest1', '123', None, None, '', None, '2019-11-21 10:32:55.346493']
+[2019-11-23 00:12:35,929] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:12:35,929] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:12:35,954] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:12:35,954] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:12:36,218] [DEBUG] (0.007) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:12:36,218] [DEBUG] (0.007) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:12:36,359] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:12:36,359] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:14:27,865] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:14:27,865] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:14:27,866] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:14:27,866] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:14:27,866] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:14:27,866] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:14:27,997] [DEBUG] (0.004) b"SELECT `cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:14:27,997] [DEBUG] (0.004) b"SELECT `cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:16:09,521] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:16:09,521] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:16:09,522] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:16:09,522] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:16:09,522] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:16:09,522] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:16:09,679] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:16:09,679] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:16:33,773] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:16:33,773] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:16:33,774] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:16:33,774] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:16:33,774] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:16:33,774] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:16:33,898] [DEBUG] (0.002) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:16:33,898] [DEBUG] (0.002) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:17:45,497] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:17:45,497] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:17:45,498] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:17:45,498] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:17:45,498] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:17:45,498] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:17:45,627] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:17:45,627] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:18:44,696] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:18:44,696] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:18:44,697] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:18:44,697] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:18:44,697] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:18:44,697] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:18:44,838] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:18:44,838] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:21:36,230] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:21:36,230] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:21:36,230] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:21:36,230] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:21:36,231] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:21:36,231] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:21:36,357] [DEBUG] (0.002) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:21:36,357] [DEBUG] (0.002) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:21:45,724] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:21:45,724] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:21:45,725] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:21:45,725] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:21:45,725] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:21:45,725] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:21:45,849] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:21:45,849] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:27:52,995] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:27:52,995] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:27:52,995] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:27:52,995] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:27:52,996] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:27:52,996] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:27:53,120] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:27:53,120] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1'; args=(1,)
+[2019-11-23 00:29:39,557] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:29:39,557] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:29:39,558] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:29:39,558] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:29:39,558] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:29:39,558] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:29:39,679] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1 ORDER BY `cmdb_weblogicservice`.`nid` ASC  LIMIT 1'; args=(1,)
+[2019-11-23 00:29:39,679] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`nid` = 1 ORDER BY `cmdb_weblogicservice`.`nid` ASC  LIMIT 1'; args=(1,)
+[2019-11-23 00:30:51,287] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:30:51,287] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:30:51,287] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:30:51,287] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:30:51,288] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:30:51,288] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:30:51,433] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp' ORDER BY `cmdb_weblogicservice`.`nid` ASC  LIMIT 1"; args=('mcp',)
+[2019-11-23 00:30:51,433] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp' ORDER BY `cmdb_weblogicservice`.`nid` ASC  LIMIT 1"; args=('mcp',)
+[2019-11-23 00:31:15,139] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:31:15,139] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:31:15,140] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:31:15,140] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:31:15,140] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:31:15,140] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:31:15,275] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:31:15,275] [DEBUG] (0.003) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:31:56,875] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:31:56,875] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:31:56,875] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:31:56,875] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:31:56,876] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:31:56,876] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:31:56,994] [DEBUG] (0.002) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:31:56,994] [DEBUG] (0.002) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`service_name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:33:23,905] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:33:23,905] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:33:23,905] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:33:23,905] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:33:23,906] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:33:23,906] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:33:24,045] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:33:24,045] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:34:04,367] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:34:04,367] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:34:04,367] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:34:04,367] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:34:04,368] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:34:04,368] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:34:04,504] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:34:04,504] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:34:28,678] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:34:28,678] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:34:28,678] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:34:28,678] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:34:28,679] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:34:28,679] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:34:28,820] [DEBUG] (0.010) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:34:28,820] [DEBUG] (0.010) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:38:32,896] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:38:32,896] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:38:33,003] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:38:33,003] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:38:33,004] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:38:33,004] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:38:33,150] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:38:33,150] [DEBUG] (0.006) b"SELECT T4.`weblogicservice_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogic_service_port`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogic_service_port`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogic_service_port` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) WHERE `cmdb_weblogicservice`.`service_name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:43:29,703] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:43:29,703] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:43:29,703] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:43:29,703] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:43:29,710] [DEBUG] (0.007) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:43:29,710] [DEBUG] (0.007) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:43:51,483] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:43:51,483] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:43:51,484] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:43:51,484] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:43:51,484] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:43:51,484] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:43:51,616] [DEBUG] (0.010) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:43:51,616] [DEBUG] (0.010) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:46:20,439] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:46:20,439] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:46:20,439] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:46:20,439] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:46:20,440] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:46:20,440] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:46:20,577] [DEBUG] (0.016) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:46:20,577] [DEBUG] (0.016) b"SELECT T6.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicport`.`nid` = T4.`weblogicport_id`) LEFT OUTER JOIN `cmdb_weblogicservice` T5 ON (T4.`weblogicservice_id` = T5.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T6 ON (T5.`nid` = T6.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:52:02,120] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:02,120] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:02,120] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:02,120] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:02,121] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:02,121] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:02,252] [DEBUG] (0.006) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:52:02,252] [DEBUG] (0.006) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcpinterf'  LIMIT 21"; args=('mcpinterf',)
+[2019-11-23 00:52:11,693] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:11,693] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:11,693] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:11,693] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:11,694] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:11,694] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:11,832] [DEBUG] (0.006) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:52:11,832] [DEBUG] (0.006) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:49,134] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:49,270] [DEBUG] (0.004) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:52:49,270] [DEBUG] (0.004) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:53:15,017] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:53:15,017] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:53:15,018] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:53:15,018] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:53:15,018] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:53:15,018] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:53:15,172] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 00:53:15,172] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 00:53:53,254] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:53:53,254] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:53:53,254] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:53:53,254] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:53:53,255] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:53:53,255] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:53:53,388] [DEBUG] (0.005) b'SELECT `cmdb_weblogicservice_weblogicport`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 00:53:53,388] [DEBUG] (0.005) b'SELECT `cmdb_weblogicservice_weblogicport`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 00:54:32,232] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:54:32,232] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 00:54:32,233] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:54:32,233] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 00:54:32,233] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:54:32,233] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 00:54:32,367] [DEBUG] (0.005) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 00:54:32,367] [DEBUG] (0.005) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 09:57:52,028] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 09:57:52,028] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 09:57:52,028] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 09:57:52,028] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 09:57:52,029] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 09:57:52,029] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 09:57:52,163] [DEBUG] (0.005) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 09:57:52,163] [DEBUG] (0.005) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 09:57:52,165] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3'; args=(3,)
+[2019-11-23 09:57:52,165] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`nid` = 3'; args=(3,)
+[2019-11-23 10:06:53,435] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:06:53,435] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:06:53,435] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:06:53,435] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:06:53,436] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:06:53,436] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:07:05,937] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:07:05,937] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:07:05,938] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:07:05,938] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:07:05,938] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:07:05,938] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:07:06,071] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 10:07:06,071] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 10:09:28,721] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:09:28,721] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:09:28,721] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:09:28,721] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:09:28,722] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:09:28,722] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:09:28,856] [DEBUG] (0.005) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:09:28,856] [DEBUG] (0.005) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:51:25,840] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:51:25,840] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:51:25,840] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:51:25,840] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:51:25,841] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:51:25,841] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:51:25,985] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:51:25,985] [DEBUG] (0.003) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:56:58,073] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:56:58,073] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:56:58,073] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:56:58,073] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:56:58,074] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:56:58,074] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:57:18,898] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:57:18,898] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:57:18,899] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:57:18,899] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:57:18,899] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:57:18,899] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:57:38,496] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:57:38,496] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:57:38,496] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:57:38,496] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:57:38,497] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:57:38,497] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:57:38,621] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:57:38,621] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:58:21,114] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:58:21,114] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:58:21,115] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:58:21,115] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:58:21,115] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:58:21,115] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:58:21,241] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:58:21,241] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:58:31,726] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:58:31,726] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 10:58:31,727] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:58:31,727] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 10:58:31,728] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:58:31,728] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 10:58:31,854] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 10:58:31,854] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`)  LIMIT 21'; args=()
+[2019-11-23 11:14:51,056] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:14:51,056] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:14:51,071] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:14:51,071] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:14:51,072] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:14:51,072] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:14:51,201] [DEBUG] (0.007) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:14:51,201] [DEBUG] (0.007) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:16:53,428] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:16:53,428] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:16:53,428] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:16:53,428] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:16:53,428] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:16:53,428] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:16:53,549] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:16:53,549] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:17:30,498] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:30,498] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:30,498] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:30,498] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:30,498] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:30,498] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:46,088] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:46,088] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:46,089] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:46,089] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:46,089] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:46,089] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:46,214] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:17:46,214] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:17:55,879] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:55,879] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:17:55,879] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:55,879] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:17:55,880] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:55,880] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:17:56,000] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:17:56,000] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:18:51,323] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:18:51,323] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:18:51,323] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:18:51,323] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:18:51,324] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:18:51,324] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:19:05,293] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:19:05,293] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:19:05,293] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:19:05,293] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:19:05,294] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:19:05,294] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:19:05,414] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:19:05,414] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:19:27,358] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:19:27,358] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:19:27,359] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:19:27,359] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:19:27,359] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:19:27,359] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:19:27,478] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:19:27,478] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:19:27,479] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:19:27,479] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:21:09,687] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:09,687] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:09,688] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:09,688] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:09,688] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:09,688] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:09,810] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:21:09,810] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:21:09,811] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:21:09,811] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:21:39,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:39,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:39,519] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:39,519] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:39,520] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:39,520] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:39,652] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:21:39,652] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:21:39,653] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:21:39,653] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:21:48,985] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:48,985] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:21:48,985] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:48,985] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:21:48,986] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:48,986] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:21:49,105] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:21:49,105] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:21:49,106] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:21:49,106] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:23:19,811] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:23:19,811] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:23:19,812] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:23:19,812] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:23:19,813] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:23:19,813] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:23:19,935] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:23:19,935] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:23:19,936] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:23:19,936] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:24:31,020] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:24:31,020] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:24:31,021] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:24:31,021] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:24:31,021] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:24:31,021] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:24:31,145] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:24:31,145] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:24:31,146] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:24:31,146] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:24:46,758] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:24:46,758] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:24:46,758] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:24:46,758] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:24:46,759] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:24:46,759] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:24:46,878] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:24:46,878] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:24:46,878] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:24:46,878] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:25:34,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:25:34,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:25:34,520] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:25:34,520] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:25:34,520] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:25:34,520] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:25:34,636] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:25:34,636] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:25:34,636] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:25:34,636] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:25:34,638] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:25:34,638] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:25:34,639] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:25:34,639] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:07,645] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:26:07,645] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:26:07,645] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:26:07,645] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:26:07,646] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:07,646] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:07,769] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:26:07,769] [DEBUG] (0.001) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`  LIMIT 21'; args=()
+[2019-11-23 11:26:07,769] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:26:07,769] [DEBUG] (0.000) b'SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice`'; args=()
+[2019-11-23 11:26:07,776] [DEBUG] (0.005) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:26:07,776] [DEBUG] (0.005) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:26:07,777] [DEBUG] (0.001) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:07,777] [DEBUG] (0.001) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:45,339] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:26:45,339] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:26:45,339] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:26:45,339] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:26:45,340] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:45,340] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:26:45,463] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:26:45,463] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:26:45,463] [DEBUG] (0.000) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:26:45,463] [DEBUG] (0.000) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'"; args=('mcp',)
+[2019-11-23 11:26:45,469] [DEBUG] (0.004) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:26:45,469] [DEBUG] (0.004) b'SELECT T5.`port` FROM `cmdb_weblogicport` INNER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicport`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicport_id`) INNER JOIN `cmdb_weblogicservice` ON (`cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = `cmdb_weblogicservice`.`nid`) LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` T4 ON (`cmdb_weblogicservice`.`nid` = T4.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` T5 ON (T4.`weblogicport_id` = T5.`nid`) WHERE `cmdb_weblogicservice_weblogicport`.`weblogicservice_id` = 3  LIMIT 21'; args=(3,)
+[2019-11-23 11:27:05,088] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:05,088] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:05,088] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:05,088] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:05,089] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:05,089] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:05,211] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:27:05,211] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicservice`.`name` FROM `cmdb_weblogicservice` WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:27:34,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:34,519] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:34,519] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:34,519] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:34,520] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:34,520] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:34,641] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice_weblogicport`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:27:34,641] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice_weblogicport`.`weblogicport_id` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:27:45,528] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:45,528] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:27:45,529] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:45,529] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:27:45,529] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:45,529] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:27:45,647] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:27:45,647] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:45,729] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:29:45,729] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:29:45,729] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:29:45,729] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:29:45,730] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:29:45,730] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:29:45,849] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:45,849] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:45,850] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:45,850] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:59,652] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:29:59,652] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:29:59,652] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:29:59,652] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:29:59,653] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:29:59,653] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:29:59,782] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:59,782] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:59,784] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:29:59,784] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:30:46,043] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:30:46,043] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:30:46,043] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:30:46,043] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:30:46,044] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:30:46,044] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:30:46,171] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:30:46,171] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:30:46,172] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:30:46,172] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:32:10,475] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:10,475] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:10,476] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:10,476] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:10,476] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:10,476] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:20,914] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:20,914] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:20,915] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:20,915] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:20,916] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:20,916] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:42,857] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:42,857] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:42,858] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:42,858] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:42,858] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:42,858] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:51,523] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:51,523] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:32:51,524] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:51,524] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:32:51,524] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:51,524] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:32:51,650] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:32:51,650] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:33:35,969] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:33:35,969] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:33:35,970] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:33:35,970] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:33:35,970] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:33:35,970] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:33:36,088] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:33:36,088] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:33:36,089] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:33:36,089] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:33:49,077] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:33:49,077] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:33:49,077] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:33:49,077] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:33:49,078] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:33:49,078] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:33:49,200] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:33:49,200] [DEBUG] (0.001) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:33:49,201] [DEBUG] (0.000) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:33:49,201] [DEBUG] (0.000) b"SELECT `cmdb_weblogicservice`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:36:28,735] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:36:28,735] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:36:28,736] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:36:28,736] [DEBUG] (0.001) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:36:28,736] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:36:28,736] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:36:28,866] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:36:28,866] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:36:28,867] [DEBUG] (0.000) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:36:28,867] [DEBUG] (0.000) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 1"; args=('mcp',)
+[2019-11-23 11:37:20,789] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:37:20,789] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:37:20,789] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:37:20,789] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:37:20,790] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:37:20,790] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:37:20,921] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:20,921] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:20,922] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:20,922] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:51,536] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:37:51,536] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:37:51,537] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:37:51,537] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:37:51,537] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:37:51,537] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:37:51,680] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:51,680] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:51,681] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:37:51,681] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:38:45,976] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:38:45,976] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:38:45,977] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:38:45,977] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:38:45,977] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:38:45,977] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:38:57,962] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:38:57,962] [DEBUG] (0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 11:38:57,963] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:38:57,963] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 11:38:57,964] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:38:57,964] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 11:38:58,085] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 11:38:58,085] [DEBUG] (0.001) b"SELECT `cmdb_weblogicport`.`port` FROM `cmdb_weblogicservice` LEFT OUTER JOIN `cmdb_weblogicservice_weblogicport` ON (`cmdb_weblogicservice`.`nid` = `cmdb_weblogicservice_weblogicport`.`weblogicservice_id`) LEFT OUTER JOIN `cmdb_weblogicport` ON (`cmdb_weblogicservice_weblogicport`.`weblogicport_id` = `cmdb_weblogicport`.`nid`) WHERE `cmdb_weblogicservice`.`name` = 'mcp'  LIMIT 21"; args=('mcp',)
+[2019-11-23 13:18:21,903] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:18:21,903] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:18:21,903] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:18:21,903] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:18:21,904] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:18:21,904] [DEBUG] (0.001) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:18:22,049] [DEBUG] (0.000) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()
+[2019-11-23 13:18:22,049] [DEBUG] (0.000) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()
+[2019-11-23 13:19:45,452] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:19:45,452] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:19:45,453] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:19:45,453] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:19:45,453] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:19:45,453] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:19:45,574] [DEBUG] (0.000) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()
+[2019-11-23 13:19:45,574] [DEBUG] (0.000) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:19:58,658] [DEBUG] (0.000) b'SELECT `api_user`.`avatar` FROM `api_user` WHERE `api_user`.`id` = 4  LIMIT 21'; args=(4,)
+[2019-11-23 13:19:58,778] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()
+[2019-11-23 13:19:58,778] [DEBUG] (0.001) b'SELECT `cmdb_weblogicport`.`nid`, `cmdb_weblogicport`.`port` FROM `cmdb_weblogicport`  LIMIT 21'; args=()

@@ -6,23 +6,25 @@ from django.template import RequestContext
 from django.http import HttpResponseRedirect
 from api import models
 from utils.check_login import check_login,require_login
-@check_login
+
 def index(request):
-    user_id1 = request.session.get('user_id')
-    # 使用user_id去数据库中找到对应的user信息
-    userobj = models.User.objects.filter(id=user_id1)
-    if userobj:
-        return render(request, 'index.html', {"user": userobj[0]})
-    else:
-        return render(request, 'index.html', {'user', '匿名用户'})
+    user_obj = request.session.get('user_avatar')
+    user = request.session.get('user_name')
+    if user:
+        return render(request, 'index.html', {"user": user,'user_obj':user_obj})
 def layout(request):
-    user_id1 = request.session.get('user_id')
-    # 使用user_id去数据库中找到对应的user信息
-    userobj = models.User.objects.filter(id=user_id1)
-    if userobj:
-        return render(request, 'layout.html', {"user": userobj[0]})
-    else:
-        return render(request, 'layout.html', {'user', '匿名用户'})
+    #1、根据user_id进行查库获取信息，前端src="/static/{{user_obj}}"即可
+    # user_id1 = request.session.get('user_id')
+    # user_obj = models.User.objects.filter(id=user_id1).values('avatar')
+    # user = request.session.get('user_name')#直接暴露用户名的危险（猜测）
+    # if user:
+    #     return render(request, 'layout.html', {"user": user,'user_obj':user_obj[0]['avatar']})
+    #2、直接从session中拿信息
+    user_obj = request.session.get('user_avatar')
+    user = request.session.get('user_name')#直接暴露用户名的危险（猜测）
+    if user:
+        return render(request, 'layout.html', {"user": user,'user_obj':user_obj})
+
 
 
 #基于session校验
@@ -32,22 +34,28 @@ def login(request):
         username = request.POST.get("username")
         password = request.POST.get("password")
         user = models.User.objects.filter(username=username, password=password)
-        # 从URL里面取到 next 参数
-        next_url = request.GET.get("next")
+
 
         if user:
+            # 从URL里面取到 next 参数
+            next_url = request.GET.get("next")
+            # 设置session
             # 登陆成功
             # 告诉浏览器保存一个键值对
-
-            if next_url:
-                rep = redirect(next_url)  # 得到一个响应对象
-            else:
-                rep = redirect("/index/")  # 得到一个响应对象
-            # 设置session
             request.session["is_login"] = "1"
             request.session['user_id'] = user[0].id
-            request.session.set_expiry(70)  # 7秒钟之后失效
-            return rep
+            request.session['user_name'] = user[0].username
+            request.session['user_avatar'] = str(user[0].avatar)
+
+            # print(user[0])
+            # print(user[0].id)
+            print( user[0].avatar)
+            # request.session.set_expiry(100)  # 7秒钟之后失效
+            if next_url:
+                return redirect(next_url)  # 得到一个响应对象
+            else:
+                return redirect("/index/")  # 得到一个响应对象
+
 
     return render(request, "login.html")
 #基于cookie的校验

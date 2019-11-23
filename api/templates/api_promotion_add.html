@@ -2,15 +2,25 @@
 {% extends 'api_layout.html' %}
 {% block layout %}
 <h1>添加出版社</h1>
-<form action="/api/promotion_add/" method="post">
-{% csrf_token %}
-<div><span>版本名称 <input type="text" name="promotion_name"></span></div>
-    <div><span>升级类型 <input type="text" name="promotion_select"></span></div>
-    <div><span>升级范围 <input type="text" name="promotion_extent"></span></div>
-    <div><span>升级内容 <input type="text" name="promotion_info"></span></div>
-    <div><span>升级时间 <input type="date" name="promotion_uptime"></span></div>
-    <div><span>备注 <input type="text" name="promotion_ps"></span></div>
-    <input type="submit" value="提交">
-    <p style="color: red">{{ error }}</p>
-</form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form action="/api/promotion_add/" method="post">
+            {% csrf_token %}
+            <div class="form-group"><span class="help-block">版本名称 </span><input type="text" name="promotion_name"></div>
+                <div class="form-group"><span class="help-block">升级类型 </span><input type="text" name="promotion_select"></div>
+                <div class="form-group"><span class="help-block">升级范围 </span><input type="text" name="promotion_extent"></div>
+                <div class="form-group"><span class="help-block">升级内容 </span><input type="text" name="promotion_info"></div>
+                <div class="form-group"><span class="help-block">升级时间 </span><input type="date" name="promotion_uptime"></div>
+                <div class="form-group"><span class="help-block">备注 </span><input type="text" name="promotion_ps"></div>
+                <div class="form-group">
+                                <input type="submit" class="btn btn-default">
+            {#                    <button class="btn btn-danger commit"><i class="fa fa-trash-o">提交</i></button>#}
+                            </div>
+                <p style="color: red">{{ error }}</p>
+            </form>
+ </div>
+    </div>
+
+</div>
 {% endblock %}

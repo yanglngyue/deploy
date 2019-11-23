@@ -9,13 +9,18 @@ from api import models
 from utils.pager import PageInfo
 #查
 def Promotion_list(request):
+    user_id1 = request.session.get('user_id')
+    user_obj = models.User.objects.filter(id=user_id1).values('avatar')
     all_count = models.Promotion.objects.all().count()
     page_info = PageInfo(request.GET.get('page'), all_count, 10, 'api_promotion.html', 11)
     promotion_list = models.Promotion.objects.all()[page_info.start():page_info.end()]
-
-    return render(request, 'api_promotion.html', {'promotion_list': promotion_list, 'page_info': page_info})
+    user = request.session.get('user_name')
+    return render(request, 'api_promotion.html', {'promotion_list': promotion_list, 'page_info': page_info,'user':user,'user_obj':user_obj[0]['avatar']})
 #增
 def Promotion_add(request):
+    user_id1 = request.session.get('user_id')
+    user_obj = models.User.objects.filter(id=user_id1).values('avatar')
+    user = request.session.get('user_name')
     error_msg = ""
     # 如果是POST请求,我就取到用户填写的数据
     if request.method == "POST":
@@ -34,7 +39,7 @@ def Promotion_add(request):
         else:
             error_msg = "名字不能为空!"
     # 用户第一次来,我给他返回一个用来填写的HTML页面
-    return render(request, "api_promotion_add.html", {"error": error_msg})
+    return render(request, "api_promotion_add.html", {"error": error_msg,'user':user,'user_obj':user_obj[0]['avatar']})
 
 #删
 def Promotion_del(request):
@@ -55,6 +60,9 @@ def Promotion_del(request):
         return HttpResponse("要删除的数据不存在!")
 #改
 def Promotion_edit(request):
+    user_id1 = request.session.get('user_id')
+    user_obj = models.User.objects.filter(id=user_id1).values('avatar')
+    user = request.session.get('user_name')
     # 用户修改完版本库的名字,点击提交按钮,给我发来新的版本库名字
     if request.method == "POST":
         print(request.POST)
@@ -80,7 +88,8 @@ def Promotion_edit(request):
         edit_Promotion.save()  # 把修改提交到数据库
         # 跳转出版社列表页,查看是否修改成功
         # return redirect("/api/promotion_list/")
-        return HttpResponse('数据修改完成,请点击确认跳转至列表页')
+        # return HttpResponse('数据修改完成,请点击确认跳转至列表页')
+        return HttpResponse('ok')
 
 
     # 从GET请求的URL中取到id参数
@@ -88,6 +97,6 @@ def Promotion_edit(request):
     if edit_id:
         # 获取到当前编辑的出版社对象
         Promotion_obj = models.Promotion.objects.get(id=edit_id)
-        return render(request, "promotion_edit.html", {"Promotion": Promotion_obj})
+        return render(request, "promotion_edit.html", {"Promotion": Promotion_obj,'user':user,'user_obj':user_obj[0]['avatar']})
     else:
         return HttpResponse("编辑的数据不存在!请点击确认跳转至列表页")

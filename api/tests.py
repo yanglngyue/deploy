@@ -7,6 +7,11 @@ django.setup()
 
 from api import models
 
+
+def img():
+    user_obj = models.User.objects.values('avatar').filter(id=4)
+    print(user_obj)
+img()
 # # 查找所有书名里包含番茄的书
 #
 # v1 = models.Book.objects.filter(title__contains ="番茄")
@@ -105,6 +110,7 @@ from api import models
 # v20 = models.Book.objects.filter(title='番茄物语').values("author__detail__email")
 # print(v20)
 from cmdb import models
+from api import models
 from fabric.api import *
 import time
 # env.hosts = ['10.10.68.149',]
@@ -117,23 +123,29 @@ env.user = 'super'
 #         run('mkdir /home/weblogic/yanglongyue201911041518.txt')
 #         return run
 # print(remote_task())
-def upload_file():
-    return 'ok'
-print(upload_file())
+# def upload_file():
+#     return 'ok'
+# print(upload_file())
+#
+#
+# def check():
+#     a = models.Partment.objects.get(id=2)
+#     print(a)
+# check()
+#
+#
+#
 
 
 
 
 
 
+from cmdb.models import *
 
-
-
-
-
-
-
-
-
-
-
+a= WeblogicPort.objects.all().values_list("nid", "port")
+print(a)
+# mcp_port1 = WeblogicService.objects.filter(name='mcp').values("weblogicport__port"),
+# print(mcp_port1)
+# for i in mcp_port1:
+#     print(i))
