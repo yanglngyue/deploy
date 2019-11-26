@@ -7,64 +7,27 @@
     <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
 {% endblock %}
 {% block layout %}
-<div></div>
-    <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">移动查勘测试环境部署列表</h3>
-</div>
-                <div class="panel-body">
-                    <div class="row" style="margin-bottom: 15px">
-                        <div class="col-md-4">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search for...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button">搜索</button>
-                                </span>
-                            </div><!-- /input-group -->
-                        </div><!-- /.col-md-4 -->
-                        <div class="col-md-1 pull-right"  >
-                            <div><a class="btn btn-success" href="#">添加</a></div>
-                        </div>
 
-
-                    </div><!-- /.row -->
     <table class="table table-bordered">
       <thead>
         <tr>
-            <th>序号</th>
-
-            <th>主机名</th>
-            <th>IP</th>
-            <th>CPU</th>
-            <th>内存</th>
-            <th>硬盘</th>
-{#            <th>项目包路径</th>#}
-{#            <th>域路径</th>#}
-{#            <th>备注</th>#}
-            <th>任务</th>
+            <th>服务类型</th>
             <th>操作</th>
         </tr>
       </thead>
         <tbody>
-        {% for row in ip_list %}
             <tr>
-            <td>{{ forloop.counter }}</td>
-
-            <td>{{ row.hostname }}</td>
-            <td>{{ row.network_ip }}</td>
-            <td>{{ row.cpu }}</td>
-            <td>{{ row.memory }}</td>
-            <td>{{ row.disk }}</td>
-{#            <td>{{ row.name_war }}</td>#}
-{#            <td>{{ row.domains }}</td>#}
-{#            <td>{{ row.ps }}</td>#}
-
             <td>
 {#                <a class="btn btn-danger" href="/api/task_work/?nid={{ row.id }}">初始化环境</a>#}
-                <button class="btn btn-danger init">初始化环境</button>
+{#                <button class="btn btn-danger init">初始化环境</button>#}
 {#                <a class="btn btn-danger" href="/api/put_task/?nid={{ row.id }}">项目包部署</a>#}
-                <button class="btn btn-danger push">项目包部署</button>
-                <a class="btn btn-info" href="/api/reboot_task/?nid={{ row.id }}">重启服务</a>
+{#                <button class="btn btn-danger push">项目包部署</button>#}
+                <a class="btn btn-info" href="/api/mcp_operate_index/">MCP服务</a>
+                <a class="btn btn-info" href="/api/mcpinterf_operate_index/">MCPINTERF服务</a>
+                <a class="btn btn-info" href="/api/tomcat_operate_index/">TOMCAT服务</a>
+                <a class="btn btn-info" href="/api/linux_operate_index/">服务器命令操作</a>
+
+
                 <a class="btn btn-info" href="#">查看日志</a>
             </td>
             <td>
@@ -72,10 +35,33 @@
                  <a class="btn btn-info" href="#">编辑</a>
             </td>
             </tr>
-        {% endfor %}
+
 
         </tbody>
 </table>
+
+
+<table class="table table-bordered">
+      <thead>
+        <tr>
+            <th><h1>公告</h1></th>
+        </tr>
+      </thead>
+        <tbody>
+            <tr>
+            <td>
+                <h3>使用任务发布功能前请先手动在所有服务器创建/deploy文件夹,项目包路径/backup,/initconfig,停止脚本及启动脚本</h3>
+
+            </td>
+            </tr>
+
+
+        </tbody>
+</table>
+
+
+
+
 <nav aria-label="Page navigation">
       <ul class="pagination">
           {{ page_info.pager|safe }}
@@ -93,98 +79,6 @@
 
 <script>
 
-    // 找到删除按钮绑定事件
-    $(".del").on("click", function () {
-        var $trEle = $(this).parent().parent();
-        var delId = $trEle.children().eq(1).text();
-
-        swal({
-          title: "你确定要删除吗？",
-          text: "一旦删除就找不回来了",
-          type: "warning",
-          showCancelButton: true,
-          confirmButtonClass: "btn-warning",
-          confirmButtonText: "确认",
-          cancelButtonText: "取消",
-          closeOnConfirm: false,
-          showLoaderOnConfirm: true
-        },
-        function(){
-            // 向后端发送删除的请求
-            $.ajax({
-                url: "#",
-                type: "post",
-                data: {"nid":delId},
-                success:function (arg) {
-                    swal(arg, "你可以跑路了！", "success");
-                    $trEle.remove();//删除页面当前按钮所在行
-                }
-            });
-
-        });
-    });
-
-
-    // 找到初始化按钮绑定事件
-    $(".init").on("click", function () {
-        var $trEle = $(this).parent().parent();
-        var delId = $trEle.children().eq(1).text();
-
-        swal({
-          title: "你确定要初始化环境吗？",
-          text: "一旦初始化有问题，请联系运维组人员处理！",
-          type: "warning",
-          showCancelButton: true,
-          confirmButtonClass: "btn-warning",
-          confirmButtonText: "确认",
-          cancelButtonText: "取消",
-          closeOnConfirm: false,
-          showLoaderOnConfirm: true
-        },
-        function(){
-            // 向后端发送删除的请求
-            $.ajax({
-                url: "/api/task_work/",
-                type: "post",
-                data: {"nid":delId},
-                success:function (arg) {
-                    swal(arg, "少年，初始化成功了！", "success");
-                }
-            });
-
-        });
-    });
-
-
-    // 找到部署按钮绑定事件
-    $(".push").on("click", function () {
-        var $trEle = $(this).parent().parent();
-        var delId = $trEle.children().eq(1).text();
-
-        swal({
-          title: "你确定要部署项目包吗？",
-          text: "一旦部署有问题，请联系运维组人员处理！",
-          type: "warning",
-          showCancelButton: true,
-          confirmButtonClass: "btn-warning",
-          confirmButtonText: "确认",
-          cancelButtonText: "取消",
-          closeOnConfirm: false,
-          showLoaderOnConfirm: true
-        },
-        function(){
-            // 向后端发送删除的请求
-            $.ajax({
-                url: "#",
-                type: "post",
-                data: {"nid":delId},
-                success:function (arg) {
-                    swal(arg, "少年，部署项目包成功了！", "success");
-                }
-            });
-
-        });
-    });
 
 </script>
 

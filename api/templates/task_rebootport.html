@@ -45,7 +45,7 @@
         function(){
             // 向后端发送的请求
             $.ajax({
-                url: "/api/reboot_task/",
+                url: "/api/port_reboot_task/",
                 type: "post",
                 data: {"port": port, "nid": nid,},
                 success:function (arg) {

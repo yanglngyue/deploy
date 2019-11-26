@@ -22,7 +22,7 @@
 
                 <div class="form-group">
 {#                    <input type="button" class="btn btn-default">#}
-                    <button type="button" class="btn btn-success" id="commit">注册</button>
+                    <button type="button" class="btn btn-success" id="commit">提交</button>
                 </div>
                 </form>
         </div>
@@ -44,7 +44,7 @@
         formData.append("WeblogicPort", $("#id_WeblogicPort").val());
 
         $.ajax({
-            url: "/api/reboot_task/",
+            url: "/api/port_reboot_task/",
             type: "post",
             processData: false,
             contentType: false,
